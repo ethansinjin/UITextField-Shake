@@ -52,7 +52,7 @@
             }];
             return;
         }
-        [self _shake:(times - 1)
+        [self _shake:times
            direction:direction * -1
         currentTimes:current + 1
            withDelta:delta
